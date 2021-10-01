@@ -14,7 +14,7 @@ body {
     justify-content: space-between;
     background-color: #000;
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
 }
 
@@ -30,6 +30,10 @@ body {
 
 .pr-2 {
     padding-right: 2px;
+}
+
+.px-10 {
+    padding: 0 10px;
 }
 
 /* HEADER */
@@ -67,10 +71,9 @@ main .user-column{
 
 .user-column .user {
     background-color: rgba(255, 255, 255, 0.473);
-    border: 1px solid #000;
     width: 340px;
     height: 190px;
-    margin: 2px;
+    margin: 4px;
     position: relative;
 }
 
@@ -78,7 +81,7 @@ main .user-column{
     position: absolute;
     bottom: 0;
     left: 0;
-    padding: 2px;
+    padding: 2px 5px 2px 2px;
     background:rgba(92, 91, 91, 0.473)
 }
 
@@ -87,11 +90,36 @@ main .user-column{
     transform: scale(-1, 1);
     color: rgb(253, 37, 37);
 }
-/* main .user-column li img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-} */
+
+.talk {
+    border: 3px solid #f6fc8a;
+}
 
 /* FOOTER */
 
+footer {
+    background-color: #232428;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-list .list-function {
+    padding: 5px 10px;
+}
+
+.footer-list .list-function .icon {
+    font-size: 26px;
+}
+
+footer button {
+    background-color: #3a3a39;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #ba534b;
+}
