@@ -85,6 +85,12 @@ main .user-column{
     position: relative;
 }
 
+.user-column .user img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
 .user-column .user span {
     position: absolute;
     bottom: 0;
