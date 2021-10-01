@@ -112,23 +112,42 @@ main .user-column{
 /* FOOTER */
 
 footer {
-    background-color: #232428;
     display: flex;
     justify-content: space-between;
+    background-color: #232428;
 }
 
 .footer-list {
-    list-style: none;
     display: flex;
+    padding: 5px 0;
+    list-style: none;
 }
 
 .footer-list .list-function {
-    padding: 5px 15px;
+    padding: 0 15px;
+    text-align: center;
     cursor: pointer;
 }
 
-.footer-list .list-function .icon {
+.list-function .icon {
+    display: block;
     font-size: 26px;
+    margin-bottom: 5px;
+}
+
+.footer-list .list-function.menu {
+    display: flex;
+    align-items: center;
+}
+
+.footer-list .menu i,
+.list-function .counter span {
+    padding-left: 5px;
+}
+
+.footer-list .list-function .counter {
+    display: flex;
+    justify-content: center;
 }
 
 footer button {
